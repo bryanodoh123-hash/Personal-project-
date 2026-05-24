@@ -124,4 +124,29 @@ h2 {
     font-size: 40px;
     color: #003366;
 }
+
+.Secret1 {
+    font-size: 30px;
+    color: #ff0000;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    background: none;
+    text-decoration-color: #ff0000;
+    text-align: left;
+}
+
+.Secret1telling {
+    font-size: 10px;
+    color: #ff0000;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    background: none;
+    text-decoration-color: #ff0000;
+    text-align: left;
+    padding:0%;
+     margin:0%;
+}
+   
 /* heart */
