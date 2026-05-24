@@ -22,6 +22,12 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+    animation: wave 2s infinite;
 }
 
 h1:hover {
@@ -30,12 +36,6 @@ h1:hover {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-h1:hover {
-    transform: scale(1.5);
-    transition: all 0.3s ease-in-out;
-    animation: wave 2s infinite;
 }
 
 @keyframes wave {
@@ -65,8 +65,8 @@ h2 {
 }
 
 .WaveyyyButton:hover {
-    color: #ffbaba;
-    text-shadow: 2px 2px 5px #a16d0c;
+    color: #df4001;
+    text-shadow: #ff3c00;
     transform: scale(1.4);
     transition: all 0.3s ease-in-out;
 }
@@ -76,11 +76,52 @@ h2 {
     text-shadow: 2px 2px 5px #000000;
     transform: scale(1.2);
     transition: all 0.1s ease-in-out;
-    animation: wave 0.5s infinite;
+    animation: wave 0.7s infinite;
+}
+
+.WaveyyyButton:first-letter {
+   font-size: 40px;
+   color: #8f1919;
+}
+
+@keyframes wave {
+    0% { transform: translateY(10px); }
+    50% { transform: translateY(-30px); }
+    100% { transform: translateY(10px); }
 }
 
 
-    
+.Quack {
+    font-size: 30px;
+    color: #0062d3;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    text-decoration-color: #ee4949;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(45deg, #0077ff, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
 
+.Quack:hover {
+    color: #0047ab;
+    text-shadow: 2px 2px 5px #000000;
+    transform: scale(1.4);
+    transition: all 0.5s ease-in-out;
+}
 
+.Quack:active {
+    color: #002f6c;
+    text-shadow: 2px 2px 5px #000000;
+    transform: scale(1.2);
+    animation: wave 0.4s infinite;
+}
+
+.Quack:first-letter {
+    font-size: 40px;
+    color: #003366;
+}
 /* heart */
